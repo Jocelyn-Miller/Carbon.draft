@@ -15,6 +15,10 @@
 		3700D49124A8CCBB005C7698 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3700D48F24A8CCBB005C7698 /* LaunchScreen.storyboard */; };
 		3700D49C24A8CCBB005C7698 /* Carbon_draftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3700D49B24A8CCBB005C7698 /* Carbon_draftTests.swift */; };
 		3700D4A724A8CCBB005C7698 /* Carbon_draftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3700D4A624A8CCBB005C7698 /* Carbon_draftUITests.swift */; };
+		3746E322250A6F05000FD429 /* WaterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3746E321250A6F05000FD429 /* WaterViewController.swift */; };
+		3798619625124AA600589EED /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3798619525124AA600589EED /* FoodViewController.swift */; };
+		379861982512558500589EED /* TransportationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379861972512558500589EED /* TransportationViewController.swift */; };
+		3798619A25125A8E00589EED /* WasteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3798619925125A8E00589EED /* WasteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		3700D4A224A8CCBB005C7698 /* Carbon.draftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Carbon.draftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3700D4A624A8CCBB005C7698 /* Carbon_draftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carbon_draftUITests.swift; sourceTree = "<group>"; };
 		3700D4A824A8CCBB005C7698 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3746E321250A6F05000FD429 /* WaterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterViewController.swift; sourceTree = "<group>"; };
+		3798619525124AA600589EED /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
+		379861972512558500589EED /* TransportationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportationViewController.swift; sourceTree = "<group>"; };
+		3798619925125A8E00589EED /* WasteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WasteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +110,10 @@
 				3700D48424A8CCB6005C7698 /* AppDelegate.swift */,
 				3700D48624A8CCB6005C7698 /* SceneDelegate.swift */,
 				3700D48824A8CCB6005C7698 /* ViewController.swift */,
+				3798619925125A8E00589EED /* WasteViewController.swift */,
+				379861972512558500589EED /* TransportationViewController.swift */,
+				3746E321250A6F05000FD429 /* WaterViewController.swift */,
+				3798619525124AA600589EED /* FoodViewController.swift */,
 				3700D48A24A8CCB6005C7698 /* Main.storyboard */,
 				3700D48D24A8CCBB005C7698 /* Assets.xcassets */,
 				3700D48F24A8CCBB005C7698 /* LaunchScreen.storyboard */,
@@ -259,8 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3798619A25125A8E00589EED /* WasteViewController.swift in Sources */,
+				379861982512558500589EED /* TransportationViewController.swift in Sources */,
 				3700D48924A8CCB6005C7698 /* ViewController.swift in Sources */,
+				3798619625124AA600589EED /* FoodViewController.swift in Sources */,
 				3700D48524A8CCB6005C7698 /* AppDelegate.swift in Sources */,
+				3746E322250A6F05000FD429 /* WaterViewController.swift in Sources */,
 				3700D48724A8CCB6005C7698 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
