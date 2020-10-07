@@ -166,6 +166,9 @@
                                     <color key="titleColor" systemColor="darkTextColor"/>
                                     <color key="titleShadowColor" systemColor="darkTextColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="redMeatSubtract:" destination="vV6-Ab-k3w" eventType="touchUpInside" id="jm7-rM-xkw"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Red Meat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x3q-bN-96U">
                                 <rect key="frame" x="153.41208614912262" y="190" width="105.00000000000017" height="29.999999999999886"/>
@@ -201,6 +204,9 @@
                                     <color key="titleColor" systemColor="darkTextColor"/>
                                     <color key="titleShadowColor" systemColor="darkTextColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="lightMeatSubtract:" destination="vV6-Ab-k3w" eventType="touchUpInside" id="iiR-LC-Gnr"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Vegetarian" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cXy-A7-Rgz">
                                 <rect key="frame" x="146.22661968743387" y="410" width="118.00000000000011" height="29.999999999999773"/>
@@ -236,6 +242,9 @@
                                     <color key="titleColor" systemColor="darkTextColor"/>
                                     <color key="titleShadowColor" systemColor="darkTextColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="vegetarianSubtract:" destination="vV6-Ab-k3w" eventType="touchUpInside" id="1xf-Tb-5EI"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TFL-Dz-9jS">
                                 <rect key="frame" x="157.82108683632805" y="240" width="96.999999999999943" height="34"/>
@@ -399,6 +408,9 @@
                                     <color key="titleColor" systemColor="darkTextColor"/>
                                     <color key="titleShadowColor" systemColor="darkTextColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="showerSubtract:" destination="js6-DK-ag6" eventType="touchUpInside" id="Jxd-zk-oTq"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Igs-6c-woe">
                                 <rect key="frame" x="264" y="350" width="30" height="30"/>
@@ -408,6 +420,9 @@
                                     <color key="titleColor" systemColor="darkTextColor"/>
                                     <color key="titleShadowColor" systemColor="darkTextColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="bathSubtract:" destination="js6-DK-ag6" eventType="touchUpInside" id="Mtl-lU-nVN"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lho-CZ-R7B">
                                 <rect key="frame" x="264" y="460" width="30" height="30"/>
@@ -417,6 +432,9 @@
                                     <color key="titleColor" systemColor="darkTextColor"/>
                                     <color key="titleShadowColor" systemColor="darkTextColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="dishwasherSubtract:" destination="js6-DK-ag6" eventType="touchUpInside" id="nQK-5J-D4C"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qeq-e3-Gms">
                                 <rect key="frame" x="264" y="570" width="30" height="30"/>
@@ -426,6 +444,9 @@
                                     <color key="titleColor" systemColor="darkTextColor"/>
                                     <color key="titleShadowColor" systemColor="darkTextColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="washingmachineSubtract:" destination="js6-DK-ag6" eventType="touchUpInside" id="fxH-1i-U2Z"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="fCZ-5f-AZX"/>
@@ -538,6 +559,9 @@
                                     <color key="titleColor" systemColor="darkTextColor"/>
                                     <color key="titleShadowColor" systemColor="darkTextColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="planeSubtract:" destination="EQL-xn-QYr" eventType="touchUpInside" id="Bs7-ZY-NgK"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ea5-Id-XGk">
                                 <rect key="frame" x="264" y="350" width="30" height="30"/>
@@ -547,6 +571,9 @@
                                     <color key="titleColor" systemColor="darkTextColor"/>
                                     <color key="titleShadowColor" systemColor="darkTextColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="shortcarSubtract:" destination="EQL-xn-QYr" eventType="touchUpInside" id="iDK-Cl-3Pq"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v1R-kK-CYY">
                                 <rect key="frame" x="264" y="460" width="30" height="30"/>
@@ -556,6 +583,9 @@
                                     <color key="titleColor" systemColor="darkTextColor"/>
                                     <color key="titleShadowColor" systemColor="darkTextColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="longcarSubtract:" destination="EQL-xn-QYr" eventType="touchUpInside" id="7Pk-H9-gr2"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cMA-h8-TeB">
                                 <rect key="frame" x="264" y="570" width="30" height="30"/>
@@ -565,6 +595,9 @@
                                     <color key="titleColor" systemColor="darkTextColor"/>
                                     <color key="titleShadowColor" systemColor="darkTextColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="publictransSubtract:" destination="EQL-xn-QYr" eventType="touchUpInside" id="LID-SX-xkr"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Obz-80-1PH">
                                 <rect key="frame" x="264" y="680" width="30" height="30"/>
@@ -574,6 +607,9 @@
                                     <color key="titleColor" systemColor="darkTextColor"/>
                                     <color key="titleShadowColor" systemColor="darkTextColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="walkSubtract:" destination="EQL-xn-QYr" eventType="touchUpInside" id="Dka-uL-DWW"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vx9-Az-dth">
                                 <rect key="frame" x="115" y="680" width="30" height="30"/>
@@ -639,6 +675,7 @@
                         <viewLayoutGuide key="safeArea" id="eJE-U3-KDP"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="18B-cU-lEK"/>
                     <connections>
                         <outlet property="longcarContent" destination="lnf-wg-9xd" id="QEi-wT-JrD"/>
                         <outlet property="planeContent" destination="8A0-D7-vxf" id="j2g-kl-AXE"/>
@@ -796,7 +833,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cra-3F-djP">
                                 <rect key="frame" x="20" y="0.0" width="374" height="689"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">(insert app name here) is an app dedicated to creating a fun and enteractive space for users to become more conscious of their impact on the environment. (insert app name here) tracks a user's daily GHG emissions based on the foods they eat, the water they use, the transportation they utalize, and even the waste they produce. (insert name) by the end of the day, the user knows whether they're carbon footprint is smaller or larger than average for that day. all logged days are then added to a cumulative calender. </string>
+                                <string key="text">(insert app name here) is an app dedicated to creating a fun and interactive space for users to become more conscious of their impact on the environment. (insert app name here) tracks a user's daily GHG emissions based on the foods they eat, the water they use, the transportation they utalize, and even the waste they produce. (insert name) by the end of the day, the user knows whether they're carbon footprint is smaller or larger than average for that day. all logged days are then added to a cumulative calender. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>

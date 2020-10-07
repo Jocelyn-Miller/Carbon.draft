@@ -13,47 +13,59 @@ class WasteViewController: UIViewController
 
     @IBOutlet weak var trashContent: UITextField!
     @IBOutlet weak var recycleContent: UITextField!
-    var trash = 0
-    var recycle = 0
+    var trashInt = 0
+    var recycleInt = 0
+    var trash = UserDefaults.standard.integer(forKey: "trash")
+    var recycling = UserDefaults.standard.integer(forKey: "recycling")
+    
     override func viewDidLoad()
     {
         super.viewDidLoad()
+        trashInt = trash
+        recycleInt = recycling
+        trashContent.text = "\(trashInt)"
+        recycleContent.text = "\(recycleInt)"
 
         // Do any additional setup after loading the view.
+    }
+    override func viewWillDisappear(_ animated: Bool)
+    {
+        UserDefaults.standard.set(trashInt, forKey: "trash")
+        UserDefaults.standard.set(recycleInt, forKey: "recyclying")
     }
     
 
     @IBAction func trashAdd(_ sender: UIButton)
     {
-        trash += 1
-        trashContent.text = "\(trash)"
+        trashInt += 1
+        trashContent.text = "\(trashInt)"
         
     }
     
     @IBAction func recycleAdd(_ sender: UIButton)
     {
-        recycle += 1
-        recycleContent.text = "\(recycle)"
+        recycleInt += 1
+        recycleContent.text = "\(recycleInt)"
     }
     
     @IBAction func recycleSubtract(_ sender: UIButton)
     {
-        trash -= 1
-            if trash < 0
+        trashInt -= 1
+            if trashInt < 0
             {
-                trash = 0
+                trashInt = 0
             }
-            trashContent.text = "\(trash)"
+            trashContent.text = "\(trashInt)"
     }
     
 
     @IBAction func trashSubtract(_ sender: UIButton)
     {
-        recycle -= 1
-        if recycle < 0
+        recycleInt -= 1
+        if recycleInt < 0
         {
-            recycle = 0
+            recycleInt = 0
         }
-        recycleContent.text = "\(recycle)"
+        recycleContent.text = "\(recycleInt)"
     }
 }

@@ -12,26 +12,31 @@ class ViewController: UIViewController
 {
     var dailyCarbon = 0
     
+    
     override func viewDidLoad()
     {
         super.viewDidLoad()
-        
-        let shower = UserDefaults.standard.integer(forKey: "shower")
-        print(shower)
+        // 16-20 tons
+        //var shower = UserDefaults.standard.integer(forKey: "shower")
+        //print(shower)
+        //print("view loads")
         // US citizen annual emission of 16 tons
         // daily emission of 0.044 tons
         // ag 10%, trans 28%, 
         // Do any additional setup after loading the view.
     }
+    
     override func viewDidAppear(_ animated: Bool)
     {
-        //let num = UserDefaults.standard.integer(forKey: "water")
+        //ONLY TRIGGERS with "PUSH"
+        let waterTotal = UserDefaults.standard.integer(forKey: "water")
+        print(waterTotal)
+        //let foodTotal = UserDefaults.standard.integer(forKey: "food")
+        //let transTotal = UserDefaults.standard.integer(forKey: "trans")
+        //let wasteTotal = UserDefaults.standard.integer(forKey: "waste")
         //print(num)
-        //let shower = UserDefaults.standard.integer(forKey: "shower")
-        //print(shower)
-        //print("view appears")
-        let shower = UserDefaults.standard.integer(forKey: "shower")
-        print(shower)
+        print("view loads")
+    
     }
     
     
